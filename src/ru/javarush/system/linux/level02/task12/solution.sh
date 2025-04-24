@@ -8,9 +8,9 @@ sudo useradd john
 sudo usermod -aG
 
 # Удаление пользователя `john` из группы `design_team`
-
+sudo
 
 # Удаление созданной группы `design_team`
-
+sudo
 
 # Проверка, что группы `design_team` больше не существует
