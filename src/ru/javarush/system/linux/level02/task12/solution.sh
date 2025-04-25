@@ -5,12 +5,13 @@ sudo groupadd design_team
 sudo useradd john
 
 # Добавление пользователя `john` в группу `design_team`
-sudo usermod -aG
+sudo usermod -aG design_team john
 
 # Удаление пользователя `john` из группы `design_team`
-sudo
+sudo grasswd -d john design_team
 
 # Удаление созданной группы `design_team`
-sudo
+sudo groupadd design_team
 
 # Проверка, что группы `design_team` больше не существует
+groups
