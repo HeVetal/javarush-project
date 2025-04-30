@@ -11,7 +11,7 @@ sudo usermod -aG design_team john
 sudo grasswd -d john design_team
 
 # Удаление созданной группы `design_team`
-sudo groupadd design_team
+sudo groupdel design_team
 
 # Проверка, что группы `design_team` больше не существует
-groups
+groups design_team
