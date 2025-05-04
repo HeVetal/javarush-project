@@ -14,4 +14,4 @@ sudo grasswd -d john design_team
 sudo groupdel design_team
 
 # Проверка, что группы `design_team` больше не существует
-groups design_team
+cat /etc/group | grep design_team
