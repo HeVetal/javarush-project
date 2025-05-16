@@ -1,8 +1,8 @@
 # Создаем директорию task2 в домашней директории
-mkdir "task2"
+mkdir ~/"task2"
 
 # Переходим в созданную директорию
-cd task2
+cd ~/task2
 
 # Создаем файл testfile.txt и добавляем в него текст
 echo "Hello, Linux World!" >> testfile.txt
