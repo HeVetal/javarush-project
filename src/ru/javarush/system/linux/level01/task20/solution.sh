@@ -1,8 +1,8 @@
 # Создаем директорию task4 в домашней директории
-mkdir "task4"
+mkdir ~/task4
 
 # Переходим в созданную директорию
-cd task4
+cd ~/task4
 
 # Создаем текстовый файл testfile.txt и добавляем в него текст
 echo "Hello, Linux World!" > testfile.txt
