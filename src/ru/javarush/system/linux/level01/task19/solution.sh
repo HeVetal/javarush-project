@@ -1,8 +1,8 @@
 # 1. Создание директории task3 в домашней директории
-mkdir task3
+mkdir ~/task3
 
 # 2. Переход в созданную директорию
-cd task3
+cd ~/task3
 
 # 3. Создание текстового файла testfile.txt с текстом "Hello, Linux World!"
 echo "Hello, Linux World!" > testfile.txt
