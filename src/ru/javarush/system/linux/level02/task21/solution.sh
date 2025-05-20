@@ -11,11 +11,12 @@ echo "Список текущих процессов:"
 ps
 
 # Получение PID одного из процессов `sleep`
-
+#read pid_to_kill
+pid_to_kill=$(pgrep -f "sleep 200")
 
 # Завершение процесса с указанным PID
 echo "Завершение процесса с PID: $pid_to_kill"
-kill 4003
+kill "$pid_to_kill"
 
 
 # Проверка завершения процесса
