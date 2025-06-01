@@ -1,5 +1,5 @@
 # Устанавливаем временную зону на UTC
-sudo timedatectl set_timezone "Etc/UTc"
+sudo timedatectl set_timezone UTC
 
 # Проверяем, что временная зона изменилась на UTC
 sudo timedatectl | grep "Time zone"
