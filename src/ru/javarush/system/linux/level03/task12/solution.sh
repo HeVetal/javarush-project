@@ -2,7 +2,7 @@
 sudo timedatectl set-time "2023-11-01 12:00:00"
 
 # Проверка текущего системного времени, чтобы убедиться, что время изменилось
-sudo timedatectl
+sudo timedatectl status
 
 # Включение синхронизации времени через NTP
 sudo timedatectl set-ntp true
